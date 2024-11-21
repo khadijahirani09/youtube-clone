@@ -19,7 +19,7 @@ const fetchData = async ()=>{
 }
  useEffect(()=>{
     fetchData();
- },[])
+ },[category])
   return (
     <div className='feed'>
         {data.map((items,index)=>{
